@@ -5,7 +5,7 @@ import request from './utils/requests';
 
 request({
   method: 'GET',
-  url: '/tipos2'
+  url: '/tipos2'   //向自己的服务器请求
 }).then((res) => {
   console.log(res)
 })
