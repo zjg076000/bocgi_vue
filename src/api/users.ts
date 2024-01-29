@@ -1,6 +1,9 @@
 import request from "@/utils/requests"
 
 
+
+
+
 //定义接受数据类型
 type LoginInfo = {
     phone: string;
